@@ -5,7 +5,9 @@ La prueba de hipótesis estadística es un proceso que le permite evaluar si un 
 La prueba de hipótesis puede ser un componente integral de cualquier proceso de toma de decisiones. Proporciona un marco para evaluar la confianza que uno puede tener al sacar conclusiones basadas en datos. Algunos casos en los que esto puede surgir incluyen:
 
 Un profesor espera que el promedio de un examen sea aproximadamente del 75% y quiere saber si los puntajes reales se alinean con esta expectativa. ¿Fue la prueba realmente demasiado fácil o demasiado difícil? un gerente de producto de un sitio web desea comparar el tiempo dedicado a las diferentes versiones de una página de inicio. ¿Una versión hace que los usuarios permanezcan en la página mucho más tiempo?
+
 ![](Images/Muestras.jpg)
+
 Generamos de manera aleatoria una población
 ```r
 # generate random population

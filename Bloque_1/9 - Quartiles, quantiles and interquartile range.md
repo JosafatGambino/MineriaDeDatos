@@ -5,7 +5,9 @@ Los cuartiles son una herramienta que se usan en la estadística y que sirven pa
 Los cuartiles son los tres valores de la variable que dividen a un conjunto de datos ordenados en cuatro partes iguales.
 
 Q1, Q2 y Q3 determinan los valores correspondientes al 25%, al 50% y al 75% de los datos. Q2 coincide con la mediana.
+
 ![](Images/Cuartiles.gif)
+
 A continuación lo que haremos primero es cargar crear nuestro data set uno y lo vamos a organizar
 ```r
 dataset_one <- c(50, 10, 4, -3, 4, -20, 2)
@@ -88,7 +90,9 @@ Hay nueve valores que dividen el conjunto de datos en diez grupos de igual tama�
 Puede encontrar cualquier cantidad de cuantiles. Por ejemplo, si divide el conjunto de datos en 100 grupos de igual tamaño, los 99 valores que dividen los datos son los 100 cuantiles o percentiles.
 
 Los cuartiles son algunos de los cuantiles más utilizados. Los cuartiles dividen los datos en cuatro grupos de igual tamaño.
+
 ![](Images/Cuantiles.png)
+
 Cargamos nuestra data
 ```r
 # load song data
@@ -130,7 +134,9 @@ answer <- "below"
 # Rango Intercuartil
 ***
 Una de las estadísticas más comunes para describir un conjunto de datos es el rango. El rango de un conjunto de datos es la diferencia entre los valores máximo y mínimo. Si bien esta estadística descriptiva es un buen comienzo, es importante considerar el impacto que tienen los valores atípicos en los resultados:
+
 ![](Images/RangoIntercuartil.svg)
+
 En esta imagen, la mayoría de los datos se encuentran entre 0 y 15. Sin embargo, hay un valor atípico negativo grande (-20) y un valor atípico positivo grande (40). Esto hace que el rango del conjunto de datos sea 60 (la diferencia entre 40 y -20). ¡Eso no es muy representativo de la distribución de la mayoría de los datos!
 
 El rango intercuartílico (IQR) es una estadística descriptiva que intenta resolver este problema. El IQR ignora las colas del conjunto de datos, por lo que conoce el rango alrededor del cual se centran sus datos.

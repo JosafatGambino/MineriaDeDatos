@@ -54,7 +54,9 @@ La desviación estándar es la medida de dispersión más común, que indica qu�
 El símbolo σ (sigma) se utiliza frecuentemente para representar la desviación estándar de una población, mientras que s se utiliza para representar la desviación estándar de una muestra. La variación que es aleatoria o natural de un proceso se conoce comúnmente como ruido.
 
 La desviación estándar se puede utilizar para establecer un valor de referencia para estimar la variación general de un proceso.
+
 ![](Images/DesviacionEstandar.png)
+
 Importaremos data y calcularemos la varianza
 ```r
 # Importing data and calculating variance
