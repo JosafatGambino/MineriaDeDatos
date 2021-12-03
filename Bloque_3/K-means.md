@@ -32,9 +32,9 @@ fviz_nbclust(resnumclust)
 ```
 El resultado se mostrara en la consola de R y por medio de una grafica.
 **En la siguiente imagen se muestra el resultado del metodo "resnumclus" en donde en base a su analisis nos recomienda utilizar los datos con solo 2 clusters**
-![](Images/1.PNG)
+![](Images/1.png)
 **El metodo "resnumclus" tambien nos arroja la siguiente grafica de barras, en donde la barra con mayor valor es la que nos indica el numero de clusters recomendados.**
-![](Images/2.PNG)
+![](Images/2.png)
 Una vez que sabemos que lo mas optimo es implementar dos cluster procedemos a calcularlos con las siguientes lineas de codigo.
 ```r
 k2 <- kmeans(df, centers = 2, nstart = 25)
@@ -49,16 +49,16 @@ Ahora que ya calculamos los clusters vamos a mostrarlos por medio de graficas. E
 fviz_cluster(k2, data = df)
 ```
 ### Gráfica
-![](Images/3.PNG)
+![](Images/3.png)
 ### Código
 ```r
 fviz_cluster(k2, data = df, ellipse.type = "euclid",repel = TRUE,star.plot = TRUE) #ellipse.type= "t", "norm", "euclid"
 ```
 ### Gráfica
-![](Images/4.PNG)
+![](Images/4.png)
 ### Código
 ```r
 fviz_cluster(k2, data = df, ellipse.type = "norm")
 ```
 ### Gráfica
-![](Images/5.PNG)
+![](Images/5.png)
